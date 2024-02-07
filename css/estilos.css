@@ -21,6 +21,8 @@ body {
     align-items: center;
     margin: auto;
     width: 800px;
+    max-width: 100%;
+    min-height: 450px;
 }
 
 h2 {
@@ -57,4 +59,21 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.social-icons{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
 }
