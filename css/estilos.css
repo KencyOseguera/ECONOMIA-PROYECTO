@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #333237;
-    /*background-image: url('img/fondo.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
-    /*background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    /*background-position: center; /* Centra la imagen en el fondo */
+    background-image: url('img/fondo-login.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,14 +13,15 @@ body {
 .login-container {
     background-color: #f4f4f4;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 26px;
+    opacity: 0.95;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 800px;
-    max-width: 100%;
+    width: 80%;/**/
+    max-width: 400px; /**/
     min-height: 450px;
 }
 
@@ -32,6 +32,7 @@ h2 {
 
 .input-group {
     margin-bottom: 15px;
+    width: 94%;/**/
 }
 
 label {
@@ -50,15 +51,17 @@ input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #fa8204;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 1rem;
     cursor: pointer;
+    transition: background-color 0.3s; /**/
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ffad64;
+    color: #fff;
 }
 
 .social-icons{
@@ -76,4 +79,5 @@ button:hover {
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    color: #fa8204;
 }
