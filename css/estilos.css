@@ -1,12 +1,14 @@
 body {
+
     font-family: Arial, sans-serif;
-    background-image: url('../img/fondo-login.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
+    background-image: url('../img/fondo-login.jpg');
+    background-size: cover;
+    background-position: center; 
     height: 100vh;
     justify-content: center;
     align-items: center;
     margin: 0;
+    text-align: center;
 }
 
 .login-container {
@@ -34,6 +36,7 @@ h2 {
 .input-group {
     margin-bottom: 15px;
     width: 94%;/**/
+    text-align: left;
 }
 
 label {
