@@ -1,5 +1,4 @@
 
-
 body{
     font-family: Arial, sans-serif;
     background-image: url('../img/fondo-login.jpg');
@@ -34,15 +33,16 @@ h2{
     margin: 0 20px;
 }
 .hamburguer {
-    margin: 15px; /* Añade un margen de 20px en todos los lados del contenedor */
-    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+    margin: 15px; 
+    overflow: hidden; 
     height: 90%;
+    justify-content: center;
 }
 
 .hamburguer img {
-    width: auto; /* La imagen se ajustará automáticamente al 100% de su altura original */
-    height: 100%; /* Hace que la imagen ocupe el 100% de la altura del contenedor */
-    display: block; /* Hace que la imagen sea un bloque para que los márgenes automáticos funcionen */
+    width: auto; 
+    height: 100%;
+   
 }
 
 .overlay {
@@ -51,8 +51,8 @@ h2{
     left: 0;
     width: 100%;
     height: 20%;
-    background-color: rgba(0, 0, 0, 0.5); /* El último valor (0.5) controla la opacidad del negro (0 totalmente transparente, 1 totalmente opaco) */
-    z-index: 2; /* Asegura que el rectángulo esté encima del contenido */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2; 
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ h2{
 
 .containerButton {
     position: fixed;
-    bottom: 17%;
+    bottom: 15%;
     width: 100%;
     height: 10%;
     z-index: 1;
@@ -84,7 +84,8 @@ h2{
     border: none;
     border-radius: 25px;
     cursor: pointer;
-     /* Ajusta según sea necesario para colocar el botón un poco más abajo de la mitad de la pantalla */
+    text-decoration: none;
+     
 }
 
 .overText{
@@ -96,10 +97,11 @@ h2{
     text-align: left;
 }
 
-.icons{
-    width: fit-content;
-    height: fit-content;
-    z-index: 1;
+.icons {
+    position: fixed;
+    top: 20px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    right: 16px; /* Ajusta la distancia desde la derecha según sea necesario */
+    z-index: 3; /* Asegura que el icono esté en la parte superior */
 }
 
 .icons a{

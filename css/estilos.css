@@ -4,7 +4,6 @@ body {
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -23,6 +22,8 @@ body {
     width: 80%;/**/
     max-width: 400px; /**/
     min-height: 450px;
+    top: 16%;
+    position: relative;
 }
 
 h2 {
