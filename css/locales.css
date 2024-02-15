@@ -30,27 +30,20 @@
 }
 
 .card {
-    max-width: 400px; /* Establece el ancho máximo de la tarjeta en 400px */
-    margin: 0 auto; /* Centra la tarjeta horizontalmente */
-    border-radius: 40px;
-    
+    max-width: 400px; /* Reducimos el ancho máximo de la tarjeta */
+    margin: 10px; /* Agregamos un pequeño margen entre las tarjetas */
+    border-radius: 20px; /* Reducimos el radio de borde */
+    border: none; /* Quitamos el borde */
+    overflow: hidden; /* Ocultamos cualquier contenido que se desborde */
+}
+
+.card-img {
+    width: 100%; /* Aseguramos que la imagen ocupe todo el ancho de la tarjeta */
+    height: 150px; /* Fijamos una altura para la imagen */
+    object-fit: cover; /* Hacemos que la imagen se ajuste dentro de su contenedor manteniendo su relación de aspecto */
+    border-radius: 20px 20px 0 0; /* Agregamos un radio de borde solo en las esquinas superiores */
 }
 
 .card-text {
-    font-size: 14px; /* Reduce el tamaño del texto */
-}
-
-.card-img-overlay {
-    display: flex; /* Usa flexbox para el contenedor de superposición */
-    flex-direction: column; /* Coloca los elementos en columnas */
-    justify-content: flex-end; /* Alinea los elementos al final del eje principal (abajo) */
-    
-}
-
-.card-title {
-    margin: 0; /* Elimina el margen predeterminado del título */
-    padding: 10px; /* Agrega un relleno alrededor del título */
-    color: white; /* Color de texto blanco */
-    text-align: end;
-    font-size: 25px;
+    font-size: 18px; /* Ajustamos el tamaño del texto del título */
 }
