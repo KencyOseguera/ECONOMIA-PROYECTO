@@ -105,3 +105,32 @@ body {
 .card:hover img {
     transform: scale(1.1);
 }
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 300px; /* Ancho fijo para dispositivos grandes */
+}
+
+@media (max-width: 768px) {
+    .testimonial {
+        width: 100%; /* Cambia el ancho a 100% en dispositivos pequeños */
+        margin-right: 0; /* Elimina el margen derecho en dispositivos pequeños */
+        margin-bottom: 20px; /* Agrega un margen inferior en dispositivos pequeños */
+    }
+}
+
+.testimonial p {
+    color: #343a40;
+}
+
+.customer {
+    color: #6c757d;
+}
